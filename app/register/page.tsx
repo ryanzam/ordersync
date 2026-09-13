@@ -26,7 +26,7 @@ export default function Register() {
         router.push("/dashboard");
     };
     return (
-        <main className="min-h-screen grid place-items-center p-6">
+        <main className="min-h-screen grid place-items-center p-6 w-full bg-[url('/bg1.webp')] bg-cover bg-center bg-no-repeat">
             <form
                 onSubmit={submit}
                 className="card w-full max-w-md p-7 space-y-4"
