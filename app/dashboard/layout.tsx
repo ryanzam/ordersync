@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getSession } from "@/lib/auth";
 import { redirect } from "next/navigation";
+import LogoutButton from "@/components/ui/logout-button";
 
 export default async function DashboardLayout({
     children,
@@ -38,13 +39,9 @@ export default async function DashboardLayout({
                         </Link>
                     );
                 })}
-                <form
-                    action="/api/auth/logout"
-                    method="post"
-                    className="mt-auto"
-                >
-                    <button className="text-sm text-white/60">Sign out</button>
-                </form>
+                <div className="mt-auto">
+                    <LogoutButton />
+                </div>
             </aside>
             <main className="flex-1">{children}</main>
         </div>
