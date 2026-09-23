@@ -2,17 +2,17 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="min-h-screen grid place-items-center p-6">
+    <main className="min-h-screen grid place-items-center p-6 w-full bg-[url('/bg.webp')] bg-cover bg-center bg-no-repeat">
       <div className="max-w-3xl text-center">
         <p className="uppercase tracking-[.25em] text-sm text-[#7b5e3b]">
-          OrderTidy SaaS
+          Orderly
         </p>
         <h1 className="serif text-5xl md:text-7xl mt-4">
           Digital menus, ordering & kitchen flow.
         </h1>
         <p className="mt-6 text-lg text-stone-600">
-          A multi-tenant cafe platform inspired by the Apero Cafe experience,
-          with staff roles, QR menus, live orders and kitchen display.
+          A platform for organization small cafe/restaurants, with staff roles,
+          QR menus, live orders and kitchen display.
         </p>
         <div className="mt-8 flex justify-center gap-3">
           <Link
