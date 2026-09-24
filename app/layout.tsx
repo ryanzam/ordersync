@@ -3,7 +3,7 @@ import { PwaRegister } from "@/components/pwa-register";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "OrderTidy SaaS",
+  title: "OrderSync SaaS",
   description: "Multi-tenant digital menu and cafe ordering platform",
   manifest: "/manifest.webmanifest",
 };

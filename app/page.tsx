@@ -5,7 +5,7 @@ export default function Home() {
     <main className="min-h-screen grid place-items-center p-6 w-full bg-[url('/bg.webp')] bg-cover bg-center bg-no-repeat">
       <div className="max-w-3xl text-center">
         <p className="uppercase tracking-[.25em] text-sm text-[#7b5e3b]">
-          Orderly
+          OrderSync
         </p>
         <h1 className="serif text-5xl md:text-7xl mt-4">
           Digital menus, ordering & kitchen flow.

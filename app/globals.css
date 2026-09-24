@@ -30,3 +30,7 @@ body {
 button {
   cursor: pointer;
 }
+
+button:hover {
+  background-color: #7b5e3b;
+}
